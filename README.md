@@ -1,5 +1,5 @@
 # Curso Vue JS-2 - O Guia Completo
-Seção 1 e 2 - Introdução e Usando VueJS para interagir com a DOM
+Seção 1 e 2 - "Introdução" e Usando VueJS para interagir com a "DOM"
 
 https://jsfiddle.net/ ----- Testar seu codigo online
 
