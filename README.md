@@ -30,3 +30,25 @@ WATCH -- monitorando as propriedades
 
 Metodos
 setInterval - uma funcao de tempo
+
+Condicionais e Listas
+
+//DIRETIVAS
+
+---v-if (oculta o html)
+
+---v-else
+
+---v-else-if
+
+---v-show (mostra o html)
+
+---v-for  (push)(:key)
+
+TAG HTML
+
+-- <Template> Tag invisivel
+
+CSS
+display: flex;
+flex-direction: column;
