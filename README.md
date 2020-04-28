@@ -6,11 +6,17 @@ https://jsfiddle.net/ ----- Testar seu codigo online
 <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script> import do JS do vue
 
 new Vue --- Instancia do Vue que controla o template
-el = elemento
 
+el = elemento que sera controlado
+
+--Components
 DATA
 
-METHODS quando um evento acontecer no html
+METHODS: quando um evento acontecer no html
+
+COMPUTED -- sincronas// dado computado somente será reavaliado quando alguma de suas dependências for alterada.
+
+WATCH -- monitorando as propriedades
 
 {{}} double mustache // dentro tem que ser retornado uma string
 
@@ -21,12 +27,7 @@ DIRETIVAS -- propriedade personalizada
 @//v-on quando um evento acontecer vc vai chamar uma funcao
 //v-model garante o v bind e v on ou seja atualiza o dado e o dado atualiza a view
 
-
 INTERPOLADA
-
-COMPUTED -- sincronas
-
-WATCH -- monitorando as propriedades
 
 Metodos
 setInterval - uma funcao de tempo
