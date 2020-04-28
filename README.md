@@ -32,7 +32,7 @@ INTERPOLADA
 Metodos
 setInterval - uma funcao de tempo
 
-Condicionais e Listas
+Seção 3 e 4 Condicionais, Listas e Projeto 1
 
 //DIRETIVAS
 
