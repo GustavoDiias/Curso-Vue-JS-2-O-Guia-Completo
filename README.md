@@ -3,7 +3,7 @@ Seção 1 e 2 - "Introdução" e Usando VueJS para interagir com a "DOM"
 
 https://jsfiddle.net/ ----- Testar seu codigo online
 
-<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script> import do JS do vue
+<script src="https://unpkg.com/vue"></script> import do JS do vue
 
 new Vue --- Instancia do Vue que controla o template
 
@@ -32,7 +32,7 @@ INTERPOLADA
 Metodos
 setInterval - uma funcao de tempo
 
-Condicionais e Listas
+Seção 3 e 4 Condicionais, Listas e Projeto 1
 
 //DIRETIVAS
 
