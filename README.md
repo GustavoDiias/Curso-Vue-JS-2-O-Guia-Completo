@@ -98,3 +98,24 @@ Como Gerar o arquivo de Build: npm run build
 Adicionando plugins: vue-cli-plugin // vue add E o nome do plugin
 Electron plugin para desktop.
 Vuetify material design
+
+Seção 7: Introdução aos Componentes
+
+Vue é um arvore de componentes, ou seja, fortemente baseada em components.
+
+Replicar uma mesma parte da aplicação e um componente.
+
+Um componente retorna apenas um unico elemento.
+
+O componente pode ser duplicado e cada componente tera seu proprio estado.
+
+A chamda do componente e case insensitive.
+
+O componente pode ser de registro global (Vue.component) ou não sendo criado uma const e chamando essa const na instancia vue (components).
+
+Para garantir que o css se aplique apenas no componente e utilizado scoped na tag style.(Se aplica ao Pai e ao Filho Direto)
+
+Organização de pastas: Components 	> template
+					> widgets
+					> user
+
