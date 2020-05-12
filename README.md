@@ -119,3 +119,22 @@ Organização de pastas: Components 	> template
 					> widgets
 					> user
 
+Seção 8: Comunicação Entre Componentes
+
+A comunicação direta entre o componente Pai e Filho e feito atraves da Props.
+
+Props: as propriedades que são suportadas por esse componente.
+
+No componente filho voce coloca quais propriedades voce espera receber e no componente pai voce essa propriedade.
+
+Para passar uma propriedade vc manda ela pela tag html do componente pai onde e referenciado o componente filho.
+
+Definir o tipo da propriedade sempre com letra maiuscula (String).
+
+Na Props pode ser colocar os seguintes propriedades: Type, Required, Default.
+
+A comunicação direta do Filho para o Pai é feito atraves de eventos ($emit).
+
+E a comunicaçao indireta do Filho para Pai é feito atraves de uma função passado do pai para o filho (Callback).
+
+A comunicação entre componentes Irmãos é feita atraves do componente Pai ou atraves de barramento.
