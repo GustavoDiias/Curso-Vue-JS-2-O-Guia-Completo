@@ -131,3 +131,19 @@
 * E a comunicaçao indireta do Filho para Pai é feito atraves de uma função passado do pai para o filho (Callback).
 
 * A comunicação entre componentes Irmãos é feita atraves do componente Pai ou atraves de barramento.
+
+## Seção 9: Uso Avançado de Components
+
+Backgrounds: https://uigradients.com/#Kashmir
+
+Ao inves de passar informação via props passar o dado por dentro do corpo do componente.Utiliza-se a tag slot.
+
+A estilização do slot e aplicada aos 2 componentes, podendo gerar conflito, se isso ocorrer usar o !important.
+
+Slot pode ter um nome definido.
+
+Pode ser passado mais de uma informação para slot padrao e para o nomeado.
+
+Os componentes podem ser renderizados dinamicamentes.
+
+Para manter o componente dinamico vivo deve se usar a tag keep-alive. Ele ativa e desativa o componente inves de mata-lo.
