@@ -134,16 +134,24 @@
 
 ## Seção 9: Uso Avançado de Components
 
-Backgrounds: https://uigradients.com/#Kashmir
+* Backgrounds: https://uigradients.com/#Kashmir
 
-Ao inves de passar informação via props passar o dado por dentro do corpo do componente.Utiliza-se a tag slot.
+* Ao inves de passar informação via props passar o dado por dentro do corpo do componente.Utiliza-se a tag slot.
 
-A estilização do slot e aplicada aos 2 componentes, podendo gerar conflito, se isso ocorrer usar o !important.
+* A estilização do slot e aplicada aos 2 componentes, podendo gerar conflito, se isso ocorrer usar o !important.
 
-Slot pode ter um nome definido.
+* Slot pode ter um nome definido.
 
-Pode ser passado mais de uma informação para slot padrao e para o nomeado.
+* Pode ser passado mais de uma informação para slot padrao e para o nomeado.
 
-Os componentes podem ser renderizados dinamicamentes.
+* Os componentes podem ser renderizados dinamicamentes.
 
-Para manter o componente dinamico vivo deve se usar a tag keep-alive. Ele ativa e desativa o componente inves de mata-lo.
+* Para manter o componente dinamico vivo deve se usar a tag keep-alive. Ele ativa e desativa o componente inves de mata-lo.
+
+## Seção 10: Projeto #02 - Tarefas (TODO)
+
+* Um projeto onde voce adiciona suas tarefas, marcando elas como feita ou nào.
+* Não são aceitas tarefas com o mesmo nome, e as tarefas são salvas em memoria.
+* Ainda tem uma barra de progresso aonde mostra a % das conclusões das tarefas.
+
+* Para guardar uma string em memoria e so chamar a função localStorage.Porem você tem que ler a localStorage toda vez que criar o componente.
