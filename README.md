@@ -131,3 +131,72 @@
 * E a comunicaçao indireta do Filho para Pai é feito atraves de uma função passado do pai para o filho (Callback).
 
 * A comunicação entre componentes Irmãos é feita atraves do componente Pai ou atraves de barramento.
+
+## Seção 9: Uso Avançado de Components
+
+* Backgrounds: https://uigradients.com/#Kashmir
+
+* Ao inves de passar informação via props passar o dado por dentro do corpo do componente.Utiliza-se a tag slot.
+
+* A estilização do slot e aplicada aos 2 componentes, podendo gerar conflito, se isso ocorrer usar o !important.
+
+* Slot pode ter um nome definido.
+
+* Pode ser passado mais de uma informação para slot padrao e para o nomeado.
+
+* Os componentes podem ser renderizados dinamicamentes.
+
+* Para manter o componente dinamico vivo deve se usar a tag keep-alive. Ele ativa e desativa o componente inves de mata-lo.
+
+## Seção 10: Projeto #02 - Tarefas (TODO)
+
+* Um projeto onde voce adiciona suas tarefas, marcando elas como feita ou nào.
+* Não são aceitas tarefas com o mesmo nome, e as tarefas são salvas em memoria.
+* Ainda tem uma barra de progresso aonde mostra a % das conclusões das tarefas.
+
+* Para guardar uma string em memoria e so chamar a função localStorage.Porem você tem que ler a localStorage toda vez que criar o componente.
+
+## Seção 11: Manipulando Entrada de Usuário com Formulários
+
+* Ao criar um objeto você não precisa ter o atributo declarado.
+
+* Lazy: Atualiza quando voce sair do campo em que está digitando.
+
+* Trim: Tira os espaços em branco.
+
+* Number: Se dentro da String tiver um valor numerico ele converte para Float.
+
+* Tag "pre" preserva os espaços em branco, tanto como o Style pre.
+
+* Checkbox usa se um array, porque e multipla seleção.
+
+* Radio é seleção unica.
+
+## Seção 12: Usando e Criando Diretivas
+
+* v-text: Pega o texto e coloca dentro da tag.
+* v-html: Pega uma tag e coloque dentro de outra tag.
+
+* Para criar uma diretiva globalmente na main onde você passa o Vue.directive("Nome",{})
+
+* Criar uma diretiva localmente você usa directives na parte dos scripts.
+
+### Gatilhos(Hooks)
+* bind(el, binding, vnode) : Quando a diretiva é interligada com elemento.
+* inserted(el, binding, vnode) : Elemento inserido no nó pai
+* update (el, binding, vnodem oldVNode) : Quando o componente é atualizado (antes filhos)
+* componentUpdated (el, binding, vnodem oldVNode) : Quando o componente é atualizado (depois filhos)
+* unbind (el, binding, vnode) : Quando a diretiva é desvinculada do elemento
+
+* Acessar o valor da diretiva = binding.value
+* Acessar o argumento = binding.agr
+* Acessar os modificadores = binding.modifiers
+
+
+
+
+
+
+
+
+
