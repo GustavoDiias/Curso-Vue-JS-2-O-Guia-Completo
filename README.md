@@ -166,7 +166,7 @@
 
 * Number: Se dentro da String tiver um valor numerico ele converte para Float.
 
-* Tag <pre> preserva os espaços em branco, tanto como o Style pre.
+* Tag "pre" preserva os espaços em branco, tanto como o Style pre.
 
 * Checkbox usa se um array, porque e multipla seleção.
 
