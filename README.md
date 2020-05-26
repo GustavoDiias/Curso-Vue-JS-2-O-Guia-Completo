@@ -155,3 +155,48 @@
 * Ainda tem uma barra de progresso aonde mostra a % das conclusões das tarefas.
 
 * Para guardar uma string em memoria e so chamar a função localStorage.Porem você tem que ler a localStorage toda vez que criar o componente.
+
+## Seção 11: Manipulando Entrada de Usuário com Formulários
+
+* Ao criar um objeto você não precisa ter o atributo declarado.
+
+* Lazy: Atualiza quando voce sair do campo em que está digitando.
+
+* Trim: Tira os espaços em branco.
+
+* Number: Se dentro da String tiver um valor numerico ele converte para Float.
+
+* Tag <pre> preserva os espaços em branco, tanto como o Style pre.
+
+* Checkbox usa se um array, porque e multipla seleção.
+
+* Radio é seleção unica.
+
+## Seção 12: Usando e Criando Diretivas
+
+* v-text: Pega o texto e coloca dentro da tag.
+* v-html: Pega uma tag e coloque dentro de outra tag.
+
+* Para criar uma diretiva globalmente na main onde você passa o Vue.directive("Nome",{})
+
+* Criar uma diretiva localmente você usa directives na parte dos scripts.
+
+### Gatilhos(Hooks)
+* bind(el, binding, vnode) : Quando a diretiva é interligada com elemento.
+* inserted(el, binding, vnode) : Elemento inserido no nó pai
+* update (el, binding, vnodem oldVNode) : Quando o componente é atualizado (antes filhos)
+* componentUpdated (el, binding, vnodem oldVNode) : Quando o componente é atualizado (depois filhos)
+* unbind (el, binding, vnode) : Quando a diretiva é desvinculada do elemento
+
+* Acessar o valor da diretiva = binding.value
+* Acessar o argumento = binding.agr
+* Acessar os modificadores = binding.modifiers
+
+
+
+
+
+
+
+
+
