@@ -192,7 +192,25 @@
 * Acessar o argumento = binding.agr
 * Acessar os modificadores = binding.modifiers
 
+## Seção 13: Melhorando sua App com Filtros e Mixins
 
+* Filtros são transformações feitas em cima dos valores.
+
+* Para declarar um filtro localmente se usa a chamada Filters. Onde uma função recebe um valor, transforma ele e o retorna.
+
+* Para declarar uma filtro globalmente você coloca Vue.filter na main.js.
+
+* Exemplo de Filtro e colocar a mascara em um CPF.
+
+* No caso do CPF sempre bom colocar ele como String pois em caso numerico ele pode perder sua propriedade caso começe com 000.
+
+* Observação quanso se tem uma cadei de filtros o resultado do filtro anterior e passado para os demais sucessivamente.
+
+* Mixins são formas de Re-Uso baseado em composição.
+
+* Faz a chamada dos mixins colocando um array onde e passado todos os mixins que serão usados.
+
+* O componente tem prioridade em relação ao mixin.
 
 
 
