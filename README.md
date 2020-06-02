@@ -204,7 +204,7 @@
 
 * No caso do CPF sempre bom colocar ele como String pois em caso numerico ele pode perder sua propriedade caso começe com 000.
 
-* Observação quanso se tem uma cadei de filtros o resultado do filtro anterior e passado para os demais sucessivamente.
+* Observação quando se tem uma cadeia de filtros o resultado do filtro anterior e passado para os demais sucessivamente.
 
 * Mixins são formas de Re-Uso baseado em composição.
 
