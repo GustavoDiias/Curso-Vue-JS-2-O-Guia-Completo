@@ -19,7 +19,7 @@
 
 * {{}} double mustache // dentro tem que ser retornado uma string
 
-#### DIRETIVAS - propriedade personalizada 
+### DIRETIVAS - propriedade personalizada 
 * ://v-bind --- faz uma tag ser interpretado pelo vue
 * //v-once --- ler esse valor apenas uma vez nao ira atualizar mais o conteudo da tag
 * //v-html -- imprimir uma html puro
@@ -30,7 +30,7 @@
 
 ## Seção 3 e 4 Condicionais, Listas e Projeto 1
 
-#### DIRETIVAS
+### DIRETIVAS
 
 * v-if (oculta o html)
 
@@ -42,14 +42,13 @@
 
 * v-for (push)(:key)
 
-
-* <Template> Tag invisivel
+* Template Tag invisivel
 
 * CSS: display: flex; flex-direction: column;
 
 ## Seção 5: entendendo a Instancia Vue
 
-#### Observações:
+### Observações:
 
 * No vue se pode controlar mais de uma instancia ao mesmo tempo porem não se pode chamar um objeto de outra instancia na outra.
 
