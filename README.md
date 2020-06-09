@@ -212,7 +212,50 @@
 
 * O componente tem prioridade em relação ao mixin.
 
+## Seção 14: Adicionando Animações e Transições
 
+* Transition tem como objetivo envolver o elemento o qual você quer fazer uma transição ou uma animação.
+* Os elementos não sao envolvidos por uma tag.
+
+* Adicionou o plugin de BootStrap
+* Os componente do BootStrap começam com b-(alguma coisa)
+
+### Transições com Classes CSS
+* 3 Classes CSS para Colocar o elemento na tela
+* {Estado Inicial (.nome-enter); Processo de Transição(.nome-enter-active); Destino da Transição (.nome-enter-to)}
+* 3 Classes CSS para Tirar o elemento na tela
+* {Estado Inicial (.nome-leave); Processo de Transição(.no me-leave-active); Destino da Transição (.nome-leave-to)}
+* O nome da transition vai impactar na nomenclatura de classe.
+
+* Ele usa opacity para demonstrar um exemplo de transição.
+
+* @keyframes ponto de inicio e fim qualquer trasição.Ele usa os @keyframes para fazer um slide de cima para baixo.
+
+* Propriedade type serve para controlar o tempo da animação ou transição.
+
+* Appear faz a transição no carregamento da aplicação.
+
+* Biblioteca animated.css. Ele usa essa animação dentro da transition nas classes enter-active-class/leave-active-class.
+
+* Control + / comenta o codigo selecionado.
+
+* Para alternar entre animações precisa-se do key com valor unico.
+
+* Mode=out-in o primeiro elemento vai sair para depois o outro entrar.in out primeiro entra depois o outro sai.
+
+### Transições com Classes JavaScript (Hooks)
+* 4 Metodos de Entrada
+* {Antes de Entrar (before-enter); Entrar (enter); Depois de Entrar (.after-enter); Quando Entrar for Cancelada (enter-cancelled)}
+* 4 Metodos de Saida
+* {Antes de Sair (before-leave); Sair (leave); Depois de Sair (.after-leave); Quando Sair for Cancelada (leave-cancelled)}
+
+* No metodo Enter e no Leave precisa ser chamado o metodo done pois com ele voce fala para o vue que conclui a animação.
+
+* :css= false para o transition não usar o css para animação.
+
+* Transition-Group para fazer uma animação em grupo de elementos.Os elemento são envolvidos por uma tag.
+
+* Projeto Quiz que usa animação Flip.
 
 
 
