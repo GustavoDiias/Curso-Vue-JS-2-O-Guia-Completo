@@ -222,10 +222,10 @@
 
 ### Transições com Classes CSS
 * 3 Classes CSS para Colocar o elemento na tela
-* {Estado Inicial (.nome-enter); Processo de Transição(.nome-enter-active); Destino da Transição (.nome-enter-to)}
-* 3 Classes CSS para Tirar o elemento na tela
-* {Estado Inicial (.nome-leave); Processo de Transição(.no me-leave-active); Destino da Transição (.nome-leave-to)}
-* O nome da transition vai impactar na nomenclatura de classe.
+{Estado Inicial (.nome-enter); Processo de Transição(.nome-enter-active); Destino da Transição (.nome-enter-to)}
+3 Classes CSS para Tirar o elemento na tela
+{Estado Inicial (.nome-leave); Processo de Transição(.no me-leave-active); Destino da Transição (.nome-leave-to)}
+O nome da transition vai impactar na nomenclatura de classe.
 
 * Ele usa opacity para demonstrar um exemplo de transição.
 
@@ -245,9 +245,9 @@
 
 ### Transições com Classes JavaScript (Hooks)
 * 4 Metodos de Entrada
-* {Antes de Entrar (before-enter); Entrar (enter); Depois de Entrar (.after-enter); Quando Entrar for Cancelada (enter-cancelled)}
-* 4 Metodos de Saida
-* {Antes de Sair (before-leave); Sair (leave); Depois de Sair (.after-leave); Quando Sair for Cancelada (leave-cancelled)}
+{Antes de Entrar (before-enter); Entrar (enter); Depois de Entrar (.after-enter); Quando Entrar for Cancelada (enter-cancelled)}
+4 Metodos de Saida
+{Antes de Sair (before-leave); Sair (leave); Depois de Sair (.after-leave); Quando Sair for Cancelada (leave-cancelled)}
 
 * No metodo Enter e no Leave precisa ser chamado o metodo done pois com ele voce fala para o vue que conclui a animação.
 
