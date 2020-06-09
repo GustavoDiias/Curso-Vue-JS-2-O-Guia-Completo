@@ -225,7 +225,8 @@
 {Estado Inicial (.nome-enter); Processo de Transição(.nome-enter-active); Destino da Transição (.nome-enter-to)}
 3 Classes CSS para Tirar o elemento na tela
 {Estado Inicial (.nome-leave); Processo de Transição(.no me-leave-active); Destino da Transição (.nome-leave-to)}
-O nome da transition vai impactar na nomenclatura de classe.
+
+* O nome da transition vai impactar na nomenclatura de classe.
 
 * Ele usa opacity para demonstrar um exemplo de transição.
 
