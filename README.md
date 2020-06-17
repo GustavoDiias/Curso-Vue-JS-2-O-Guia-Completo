@@ -257,6 +257,37 @@
 
 * Projeto Quiz que usa animação Flip.
 
+## Seção 15: Conectando com Servidor HTTP
+
+* Criação de um projeto no firebase e um database.
+
+* Instalação do axios: npm i --save axios
+
+* Registra um plugin chamado Axios para que o Axios possa ser chmado globalmente com $http.
+
+* Onde define o URl do Back End: axios.defaults.baseURL = ""
+
+* O firebase exige voce colocar .json no final de uma coleção que você quer salvar.
+
+* Criação de instancias do axios cada uma com suas proprias configurações. Axios.create
+
+* Exemplo de Post onde o ele envia os dados do form para o firebase e caso aja sucesso .then limpa os campos do formulario.
+
+* Exemplo de Get onde ele vai obterUsuario registrados no firebase.
+
+* Exemplo do Axios localmente.Quando isso ocorre você deve passar a url nos metodos.
+
+* Exemplo de como interceptar as requisições.
+
+* Exemplo de como interceptar as resposta. A onde você pode tratar como a resposta chegará. Transformou o objeto em um array.
+
+* Exemplo de headers globalmente. axios.defaults.headers.common["Authorization"] = 'abc123'. Pode ser passado dentro das instancia de configuração do axios.
+
+* Exemplo de delete.
+
+* Exemplo de patch, a onde ele usa um if no id para saber o que a função salvar vai fazer se ela vai alterar ou incluir.
+
+* Tratamento de erros e mostragem de mensagens.
 
 
 
