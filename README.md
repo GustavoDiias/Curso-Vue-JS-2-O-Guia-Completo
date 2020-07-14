@@ -289,6 +289,44 @@
 
 * Tratamento de erros e mostragem de mensagens.
 
+## Seção 16: Rotas em uma Aplicação VueJS
+
+* Router e um plugin que vai controlar a navegação entre multiplos componentes.(Single Page Aplication)
+
+* Intalar o router: npm i --save vue-router@3.0.2 -E
+
+* Arquivo router.js na raiz do projeto. Importa todos os Componentes.
+
+* Registrar o Router no Vue usando Vue.use(Router).
+
+* Cria uma função construtora onde recebe o caminho(path) e o nome do componente associado a esse caminho.
+
+* Tag router-view/router-link onde sera apresentado os componentes da aplicação usando o routes.
+
+* Rotas mode Hash -> localhost:8080/#/... o hash não e enviado para o servidor da aplicação. A requisição vai ate o /
+
+* Rotas mode History -> localhost:8080/... todo o caminho e enviado como requisição, se não houver a requisição certa o Vue não sera carregado. Precisa de comfiguração no servidor.
+
+* Router-Link propriedade (to = caminho), (tag = li), (active-class = chama uma classe que e ativada) (exact = o caminho exato)
+
+* Criar um metodo para voltar você pode passar a o caminho absoluto ou passar um objeto.
+
+* Pegar um parametro da rota (this.$routes.params.id). Precisa usar o watch para funcionar corretamente.
+
+* Pegar um parametro da rota usando props. Router passa automaticamente o parametro para o props facilitando a utilização.
+
+* Fazer uma Rota (Aninhada) com componentes filhos você passa a propriedade children nas rotas.
+
+* A navegação entre rotas pode ser feita atraves de um nome fornecida para a rota como paramentro.
+
+* Atraves do $route.query você consegue pegar os valores das querys.
+
+* Se colar um * no path voce pode redirecionar qualquer rota que não existe para uma padrão.
+
+* Para o Hash funcionar e preciso adicionar a função Scroll Behavior no routes.
+
+* Proteger a rota antes de entrar nela (BeforeEnter) . Proteger a rota antes de sair dela (BeforeLeave). Carregando as rotas tardiamente
+
 
 
 
