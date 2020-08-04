@@ -327,6 +327,29 @@
 
 * Proteger a rota antes de entrar nela (BeforeEnter) . Proteger a rota antes de sair dela (BeforeLeave). Carregando as rotas tardiamente
 
+## Seção 17: Melhor Gerenciamento de Estado com Vuex
+
+* Vuex e um gerenciador de estado poderoso e simples de usar.
+
+* Um problema de Gerenciamento de Estado e a conversa entre um neto e um filho que não tem relacionamento direto.
+
+* O Uso do Event bus para solucionar esse problema gera alguns problemas quando se e usado frenquentemente como desorganização e dificil monitoramento de mudanças.
+
+* VUEX: Usando o Estado Central um nó altera o Store(Central) e o outro nó o lê. o Store armazena o Estado.
+
+* Foi criado uma Store onde e armazenado os produtos e cada componente Le e escreve nessa store de acordo com as alterações.
+
+* Getter uma função que vai ler uma determinada informação e vai retornar essa informação.
+
+* A Store central ira retorna para o Getter onde havera um calculo e o Getter sera lido pelos componentes.
+
+* A Store pode ser alterada atraves de uma Mutation(alterar o estado). 
+
+* A Actions e um complemento das mutations onde as actions pode ser adicionadas regras para chamar as mutations.
+
+* Actions so aceita um parametro ou objeto.
+
+
 
 
 
