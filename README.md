@@ -349,6 +349,30 @@
 
 * Actions so aceita um parametro ou objeto.
 
+## Seção 18: Projeto #03 - The Shock Trader
+
+* Uma aplicação de Negociação e Consulta de Ações.
+
+* Vue Devetools plugin de navegador para ajudar no desenvolvimento.
+
+* Components: Home, Header, Portfolio ( Portfolio, Stock ), Stocks ( Stock, Stocks )
+
+* Vue Router: Modo History / 3 Rotas : Home , Portfolio e Stocks
+
+* Vuex separado em modulos sendo eles Stocks e Porfolio.
+
+* Vuetify para estilização.
+
+* Desabilita o button quando voce não estiver saldo suficiente.
+
+* Filtro de Valor para adicionar R$ nas operações.
+
+* A finalização do dia randomizara os preços das ações.
+
+* Animando as Transições de tela.
+
+* Axios e Firebase (PUT e GET)
+
 
 
 
